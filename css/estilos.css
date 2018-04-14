@@ -1,0 +1,85 @@
+body{
+  background-color: #f5f5f0;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header{
+  background-color: #ddd;
+  padding: 10px;
+}
+header nav{
+  margin-top: 10px;
+  font-size: 12px;
+}
+header img{
+  width: 48px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+h1{
+  font-size: 20px;
+  display: inline;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+article{
+  background-color: #def;
+  padding: 10px;
+  margin:10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: justify;
+}
+h2{
+  font-size: 16px;
+  margin: 0;
+}
+article img{
+  width: 100%;
+  max-width: 320px;
+}
+footer{
+  background-color: #333;
+  text-align: right;
+  padding: 5px 15px;
+}
+footer a{
+  color: rgb(236, 232, 129);
+  font-size: 12px;
+}
+@media(min-width: 640px){
+  #maincontent{
+    display: flex;
+  }
+  main{
+    margin-right: 20px;
+  }
+  article{
+      padding: 25px;
+  }
+  aside{
+    margin-top: 10px;
+    min-width: 320px;
+  }
+}
+@media(min-width: 770px){
+  article img{
+    float: right;
+    width: 35%;
+    margin: 15px 10px 10px 100px;
+    max-width:200px;
+  }
+  article{
+    font-size: 14px;
+  }
+}
